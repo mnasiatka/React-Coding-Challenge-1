@@ -1,0 +1,40 @@
+﻿.ReportComponent {
+    padding: 5px;
+    border: 1px solid black;
+    left: 30%;
+    position: relative;
+    max-width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ReportComponent .text-container {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.ReportComponent .text-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 50%;
+}
+
+.ReportComponent .button-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ReportComponent .text-type {
+    font-weight: bold;
+}
+
+.ReportComponent .text-value {
+    font-weight: normal;
+    font-size: small;
+    text-overflow: ellipsis;
+}
